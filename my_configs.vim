@@ -122,3 +122,13 @@ let g:pymode_rope_completion=1
 let g:pymode_rope_complete_on_dot=1
 let g:pymode_rope_completion_bind = '<C-Space>'
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Taglist setting
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let Tlist_Ctags_Cmd='ctags'
+let Tlist_Use_Right_Window=1
+let Tlist_Show_One_File=0
+let Tlist_File_Fold_Auto_Close=1
+let Tlist_Exit_OnlyWindow=1
+let Tlist_Process_File_Always=1
+let Tlist_Inc_Winwidth=0
